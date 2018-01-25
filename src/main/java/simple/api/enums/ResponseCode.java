@@ -19,7 +19,8 @@ public enum ResponseCode {
 	NO_STUDENT_LAST_NAME("Student Last Name not present", "INV_NAME"), 
 	INVALID_STUDENT_ID("Student Id not Valid", "INV_STUDENT_ID" ), 
 	
-	NO_ADDRESS_PRESENT("Address Not Present", "NOT_FOUND"), ;
+	NO_ADDRESS_PRESENT("Address Not Present", "NOT_FOUND"), 
+	INVALID_AGE("Age is not valid", "INVALID");
 	
 	;
 	
